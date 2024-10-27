@@ -1,0 +1,52 @@
+.container {
+    width: 432px;
+}
+
+.app_title {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+
+
+
+.tasks_left {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 17px;
+    align-self: start;
+}
+
+
+
+
+
+
+.filter_button_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtered_button {
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    color: #9E78CF;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.filtered_button_active {
+    border: 1px solid #777777;
+    border-radius: 5px;
+}
+
+
+.interaction_buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

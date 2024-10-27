@@ -1,0 +1,44 @@
+
+
+.todoItem_btn_wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.text_todo_done {
+    text-decoration: line-through;
+}
+
+.button_todo_done path{
+    fill:green
+}
+
+.item_text {
+    font-size: 16px;
+    overflow: hidden;
+    color: #9E78CF;
+}
+
+.todoItem_btn {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background-color: inherit;
+}
+
+
+.todoItem_delete:hover path{
+    fill: red;
+}
+
+.todoItem_delete path {
+    transition: all ease .5s;
+}
+
+.todoItem_check:hover path {
+    fill:green
+} 
+
+.todoItem_check path {
+    transition: all ease .5s;
+}

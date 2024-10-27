@@ -1,0 +1,32 @@
+@import url(./fonts/fonts.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', 'sans-serif';
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 100vh;
+    /* width: 100vw; */
+    margin: 0;
+}
+
+h1,h2,p {
+    margin: 0;
+}
+
+#root {
+    background: #0D0714;
+    /* max-width: 983px; */
+    width: 473px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}
+

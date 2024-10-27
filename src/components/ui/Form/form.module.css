@@ -1,0 +1,61 @@
+.addTodo_form {
+    max-width: 432px;
+    width: 100%;
+    display: flex;
+    gap: 11px;
+    margin-bottom: 59px;
+}
+
+.addTodo_submit::before,
+.addTodo_submit::after
+ {
+    transition: all ease .5s;
+}
+
+.addTodo_input{
+    color: #777777;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #3E1671;
+    background-color: inherit;
+    padding: 10px 15px;
+}
+
+.addTodo_submit {
+    min-width: 40px;
+    background: #9E78CF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+.addTodo_submit::before {
+    content: '';
+    position: absolute;
+    width: calc(100%* 1 / 2);
+    height: 2px;
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+
+.addTodo_submit::after {
+    content: '';
+    position: absolute;
+    rotate: 90deg;
+    width: calc(100%* 1 / 2);
+    height: 2px;
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+
+.addTodo_submit:hover::before,
+.addTodo_submit:hover::after {
+    background-color: green;
+}
